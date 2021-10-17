@@ -17,6 +17,8 @@ body{
 .superior{
     background: #F3AA00;
     overflow: hidden;
+    height: 125px;
+    font-size: 18px;
 }
 
 .logo{
@@ -27,7 +29,7 @@ body{
 
 /*Estilos para el menu de opciones*/
 .menu{
-    float: left;
+    float: right;
     padding: 50px;
 }
 
@@ -38,18 +40,32 @@ body{
 
 .opciones li a{
     color: black;
-    padding: 25px;
+    padding: 20px;
     text-decoration: none;
-    border: 1px solid black;
 }
 
 .opciones li a:hover{
-    background: #C78B00;
+    color: white;
+}
+
+.opciones li img:hover{
+    opacity: 0.9;
 }
 
 /*Estilos para el cuerpo*/
 .cuerpo{
     overflow: hidden;
+}
+
+.cuerpo > h1{
+    padding: 15px;
+}
+
+.cuerpo > p{
+    font-size: 16px;
+    text-align: justify;
+    line-height: 1.5;
+    padding: 20px;
 }
 
 .caja{
@@ -76,6 +92,7 @@ body{
 
 .titulo{
     text-align: center;
+    font-style: italic;
 }
 
 .contenido{
@@ -108,12 +125,14 @@ body{
 /* Estilos Nostros */
 
 .caja-mision{
+    border: 1px solid;
     float: left;
     width: 580px;
     margin: 9px;
 }
 
 .caja-vision{
+    border: 1px solid;
     float: left;
     width: 580px;
     margin: 9px;
@@ -144,9 +163,14 @@ body{
     text-align: center;
 }
 
+.book-info > button{
+    font-size: 18px;
+}
+
 .book-button{
  background: #F3AA00;
  border: none;
+ border-radius: 5px;
  margin: 5px;
  padding: 10px 15px;
  text-decoration: none;
