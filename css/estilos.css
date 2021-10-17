@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background:  #FFF;
+    font-family: Verdana;
+}
+
+.container{
+    width: 1200px;
+    background: white;
+    margin: 10px auto;
+}
+
+.superior{
+    background: #F3AA00;
+    overflow: hidden;
+}
+
+.logo{
+    float: left;
+    width: 180px;
+    padding: 35px;
+}
+
+/*Estilos para el menu de opciones*/
+.menu{
+    float: left;
+    padding: 50px;
+}
+
+.opciones li{
+    float: left;
+    list-style: none;
+}
+
+.opciones li a{
+    color: black;
+    padding: 25px;
+    text-decoration: none;
+    border: 1px solid black;
+}
+
+.opciones li a:hover{
+    background: #C78B00;
+}
+
+/*Estilos para el cuerpo*/
+.cuerpo{
+    overflow: hidden;
+}
+
+.caja{
+    float: left;
+    width: 380px;
+    margin: 9px;
+    border: 1px solid;
+}
+
+.subtitulo{
+    background: #F3AA00;
+}
+
+.servicios{
+    color: black;
+    text-align: center;
+    padding: 15px 0px;
+}
+
+.efecto:hover{
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.titulo{
+    text-align: center;
+}
+
+.contenido{
+    padding: 20px;
+    text-align: justify;
+}
+
+.seguir{
+    padding-bottom: 15px;
+}
+
+.inferior{
+    background: #F3AA00;
+    overflow: hidden;
+    padding: 15px;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.enlace-inferior{
+    text-decoration: none;
+}
+
+/* Estilos Nostros */
+
+.caja-mision{
+    float: left;
+    width: 580px;
+    margin: 9px;
+}
+
+.caja-vision{
+    float: left;
+    width: 580px;
+    margin: 9px;
+}
+
+/* Estilos Libros */
+
+.search-form{
+    width: 500 px;   
+}
+
+.search-bar{
+    width: 400px;
+    margin: 10px 0px;
+    padding: 10px;
+}
+
+.book{
+    padding: 10px;
+    background: #F6F6F6;
+    float: left;
+    width: 355px;
+    margin: 10px;
+    border: 1px solid;
+}
+
+.book-info{
+    text-align: center;
+}
+
+.book-button{
+ background: #F3AA00;
+ border: none;
+ margin: 5px;
+ padding: 10px 15px;
+ text-decoration: none;
+ font-size: 16px;
+}
+
+.book-button:hover{
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+/* Estilos para pagina de rastreo */
+
+.track-box{
+    background: #F6F6F6;
+    border: 1px solid;
+    width: 250px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 25px;
+    border-radius: 5px;
+}
+
+.track-form > label {
+    font-size: 20px;
+    margin: 25px;
+}
+
+.track-form > input {
+    width: 250px;
+    text-align: center;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.track-form > button{
+    background:#F3AA00;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.track-form > button:hover{
+    opacity: 0.9;
+    cursor: pointer;
+}
