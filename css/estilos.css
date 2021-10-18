@@ -333,3 +333,8 @@ body{
 .cancelado{
     color: rgb(255, 0, 0);
 }
+
+.best-sellers{
+    text-align: center;
+    overflow: hidden;
+}
