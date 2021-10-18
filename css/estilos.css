@@ -311,3 +311,25 @@ body{
     padding: 5px;
     font-size: 16px;
 }
+
+.user-history{
+    margin: auto;
+    width: 1000px;
+}
+
+.supplier-history{
+    margin: auto;
+    width: 1000px;
+}
+
+.enviado{
+    color: rgb(0, 255, 0);
+}
+
+.pendiente{
+    color: rgb(0, 60, 255);
+}
+
+.cancelado{
+    color: rgb(255, 0, 0);
+}
