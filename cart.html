@@ -22,10 +22,95 @@
                         <li><a href="books.html">LIBROS</a></li>
                         <li><a href="track.html">RASTREAR PEDIDO</a></li>
                         <li><a href="cart.html"><img src="imagenes/cart.png" alt="cart icon"></a></li>                        
-                        <li><a href="history.html"><img src="imagenes/user.png" alt="user icon"></a></li>                
+                        <li><a href="user.html"><img src="imagenes/user.png" alt="user icon"></a></li>                
                     </ul>
                 </nav>
             </header>
+
+            <article class="carrito">
+                <h4>Tienes estos artículos en tu carrito de compras:</h4>
+                <table class="libros">
+                    <thead>
+                        <tr>
+                            <th colspan="2">Libro</th>
+                            <th>Cantidad</th>
+                            <th>Precio</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td id="libro-carrito"><img src="libros/batallasdesierto.png" alt=""></td>
+                            <td id="libro-carrito">Las batallas en el desierto</td>
+                            <td>1</td>
+                            <td>$85.00</td>
+                        </tr>
+                        <tr class="efect">
+                            <td><img src="libros/personanormal.png" alt=""></td>
+                            <td>Persona Normal</td>
+                            <td>1</td>
+                            <td>$100.00</td>
+                        </tr>
+                        <tr class="efect">
+                            <td><img src="libros/readyplayerone.png" alt=""></td>
+                            <td>Ready Player One</td>
+                            <td>1</td>
+                            <td>$200.00</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <div class="aviso">
+                    <h4>Aviso importante:</h4>
+                    <p>
+                        Debido a la disponibilidad de nuestros productos
+                        tu pedido será fraccionado en órdenes más pequeñas.
+                        Tu pedido podría tardar en llegar más de lo esperado.
+                    </p>
+                </div>
+
+                <form class="payment-form">
+                    <p>Selecciona un tipo de pago</p>
+                    
+                    <input type="radio" name="payment" id="cheque" value="cheque ">
+                    <label for="cheque">Cheque</label>
+                    <input type="radio" name="payment" id="tarjeta" value="tarjeta">
+                    <label for="tarjeta">Tarjeta</label>
+
+                    <p>
+                        <label for="">Nombre</label>
+                        <input type="text" name="" id="">
+                    </p>
+
+                    <p>
+                        <label for="">Número</label>
+                        <input type="text" name="" id="">
+                    </p>
+
+                    <p>
+                        <label for="">Fecha de expiración</label>
+                        <input type="text" name="" id="">
+                    </p>
+
+                    <p>
+                        <label for="">CVV</label>
+                        <input type="text" name="" id="">
+                    </p>
+                    
+                    <label for="shipping">Envío</label>
+                    <select name="shipping" id="shipping">
+                        <option>Selecciona una opción</option>
+                        <option value="DHL">DHL - $80.00</option>
+                        <option value="UPS">UPS - $120.00</option>
+                        <option value="Estafeta">Estafeta - $100.00</option>
+                        <option value="FeDex">FeDex - $90.00</option>
+                    </select>
+                    
+                    <p>Subtotal: $380.00</p>
+                    <p>Total (con envío): $380.00</p>
+
+                    <button type="submit">Pagar</button>
+                </form>
+            </article>
 
             <footer class="inferior">
                 <div class="left">

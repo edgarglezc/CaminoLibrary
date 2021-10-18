@@ -57,11 +57,11 @@ body{
     overflow: hidden;
 }
 
-.cuerpo > h1{
+.cuerpo h1{
     padding: 15px;
 }
 
-.cuerpo > p{
+.cuerpo p{
     font-size: 16px;
     text-align: justify;
     line-height: 1.5;
@@ -163,7 +163,7 @@ body{
     text-align: center;
 }
 
-.book-info > button{
+.book-info button{
     font-size: 18px;
 }
 
@@ -194,19 +194,19 @@ body{
     border-radius: 5px;
 }
 
-.track-form > label {
+.track-form label {
     font-size: 20px;
     margin: 25px;
 }
 
-.track-form > input {
+.track-form input {
     width: 250px;
     text-align: center;
     padding: 5px;
     font-size: 16px;
 }
 
-.track-form > button{
+.track-form button{
     background:#F3AA00;
     border: none;
     border-radius: 5px;
@@ -216,7 +216,98 @@ body{
     font-size: 16px;
 }
 
-.track-form > button:hover{
+.track-form button:hover{
     opacity: 0.9;
     cursor: pointer;
+}
+
+/* Estilos para el carrito */
+.carrito{
+    width: 1000px;
+    margin: auto;
+}
+
+.carrito h4{
+    text-align: left;
+}
+
+.libros{
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid;
+    margin: 10px 0px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.libros td, th{
+    border: 1px solid;
+    padding: 8px;
+}
+
+.libros th{
+    padding-top: 4px;
+    padding-bottom: 4px;
+    text-align: left;
+    background:#F3AA00;
+    color: black;
+}
+
+.libros td{
+    background: #F6F6F6;
+}
+
+.payment-form{
+    background: #F6F6F6;
+    width: 50%;
+    border: 1px solid;
+    margin: auto;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.payment-form p{
+    margin: 10px 0px;
+}
+
+.aviso{
+    background: #F6F6F6;
+    width: 50%;
+    border: 1px solid;
+    margin: auto;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.aviso h4, p{
+    text-align: center;
+}
+
+.payment-form button{
+    background: #F3AA00;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.payment-form button:hover{
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.payment-form input {
+    width: 250px;
+    text-align: center;
+    padding: 5px;
+    font-size: 16px;
 }
